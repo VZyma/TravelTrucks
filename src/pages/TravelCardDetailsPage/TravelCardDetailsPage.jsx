@@ -1,5 +1,5 @@
 import { NavLink, Outlet, useParams } from "react-router-dom";
-import CamperDetails from "../../components/CamperDetails/CemperDetails";
+import CamperDetails from "../../components/CamperDetails/CamperDetails";
 import { useDispatch, useSelector } from "react-redux";
 import { selectSelectedCamper } from "../../redux/Catalog/selectors";
 import { useEffect } from "react";
