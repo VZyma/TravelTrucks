@@ -3,7 +3,7 @@ import CamperDetails from "../../components/CamperDetails/CamperDetails";
 import { useDispatch, useSelector } from "react-redux";
 import { selectSelectedCamper } from "../../redux/Catalog/selectors";
 import { useEffect } from "react";
-import { idCemper } from "../../redux/Catalog/operationsCatalog";
+import { idCamper } from "../../redux/Catalog/operationsCatalog";
 import css from "./TravelCardDetailsPage.module.css"
 
 export default function TravelCardDetailsPage() {
@@ -12,7 +12,7 @@ export default function TravelCardDetailsPage() {
     const camper = useSelector(selectSelectedCamper);
 
     useEffect(()=>{
-        dispatch(idCemper(id))
+        dispatch(idCamper(id))
     },[id, dispatch])
     
     return (
