@@ -1,0 +1,36 @@
+.loaderContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.9);
+    /* Полупрозрачный фон */
+    z-index: 9999;
+}
+
+.loaderContent {
+    text-align: center;
+}
+
+.loaderText {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #e44848;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.loaderContainerBtn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
